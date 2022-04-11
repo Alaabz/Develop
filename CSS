@@ -1,3 +1,4 @@
+
   <style>
  .header {
   overflow: hidden;
@@ -50,7 +51,7 @@
 }
 
 .siteFooterBar {
-    position: fixed;
+
     inset-block-end: 0;
     padding-block-start: 10px;
     inline-size: 100%;
@@ -83,7 +84,7 @@
 }
 .flex-child{
   flex: 1;
-  border: 1p solid black;
+  margin-right: 20px;
 }
 .flex-child:first-child{
   margin-right: 20px;
@@ -112,7 +113,7 @@ label {
 }
 
 form {
-  /* Center the form on the page */
+
   margin: 0 auto;
   width: 400px;
   /* Form outline */
@@ -132,7 +133,7 @@ form li + li {
 }
 
 label {
-  /* Uniform size & alignment */
+
   display: inline-block;
   width: 90px;
   text-align: right;
@@ -140,40 +141,38 @@ label {
 
 input,
 textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
+
   font: 1em sans-serif;
 
-  /* Uniform text field size */
+
   width: 300px;
   box-sizing: border-box;
 
-  /* Match form field borders */
+
   border: 1px solid #999;
 }
 
 input:focus,
 textarea:focus {
-  /* Additional highlight for focused elements */
+
   border-color: #000;
 }
 
 textarea {
-  /* Align multiline text fields with their labels */
+
   vertical-align: top;
 
-  /* Provide space to type some text */
+
   height: 5em;
 }
 
 .button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
+
+  padding-left: 90px;
 }
 
 button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
+
   margin-left: .5em;
 }
 
